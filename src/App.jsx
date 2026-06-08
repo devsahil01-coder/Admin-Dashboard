@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
+import HomePage from "./Pages/HomePage/HomePage";
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <Header />
       <div className="flex ">
         <Sidebar  />
-        <h2 className="flex-3 ">sahil</h2>
+        <HomePage  />
       </div>
     </div>
   );

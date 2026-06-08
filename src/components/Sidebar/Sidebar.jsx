@@ -36,7 +36,7 @@ const Sidebar = () => {
     ));
 
   return (
-    <div className="w-64 bg-gray-50 pt-15 h-screen p-4">
+    <div className="flex-1 bg-gray-50 pl-6 pt-15 h-screen">
       <div className="mb-6">
         <h2 className="text-xl font-bold mb-2">Dashboard</h2>
         {renderItems(dashboardItems)}
